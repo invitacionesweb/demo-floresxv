@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.0/font/bootstrap-icons.css" integrity="sha384-7ynz3n3tAGNUYFZD3cWe5PDcE36xj85vyFkawcF6tIwxvIecqKvfwLiaFdizhPpN" crossorigin="anonymous">
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Olivia</title>
+</head>
+<body>
+    <header>
+       <div class="frenteflores">
+       </div>
+       <img class="arrowdoble" src="./figuras/icons8-doble-izquierda-64.png" alt="">
+
+    </header>
+
+    <div class="audiodiv">
+        <audio id="myAudio" preload="none">
+            <source src="./img/just-the-way-you-are-sub-espanol-ingles.mp3" type="audio/mpeg">
+        </audio>
+        <div id="playPauseBtn" class="play">
+            <img src="./figuras/notamusical.png" alt="Icono de música">
+        </div>
+    </div>
+    
+    <div class="contador">
+        <div class="bloque">
+          <div id="dias" class="numero"></div>
+          <div class="etiqueta">Días</div>
+        </div>
+    
+        <div class="bloque">
+          <div id="horas" class="numero"></div>
+          <div class="etiqueta">horas</div>
+        </div>
+    
+        <div class="bloque">
+          <div id="minutos" class="numero"></div>
+          <div class="etiqueta">minutos</div>
+        </div>
+    
+        <div class="bloque">
+          <div id="segundos" class="numero"></div>
+          <div class="etiqueta">segundos</div>
+        </div>
+    </div>
+ 
+    <div class="ubicacion">
+        <div data-aos="fade-up"  class="ubicacion-bloque">
+            <img class="icon"   src="./figuras/fiesta.png" alt="fiesta">
+            <h2>FIESTA</h2>
+            <br>
+            <img class="datos" src="./figuras/05.png" alt="">
+            <p><strong>Te espero en Jano's, Perú 338, San Telmo.</strong>  <br> Hace clic para saber como llegar </p>
+            <a class="boton" href="https://www.google.com/maps/dir//Janos+San+Telmo,+Per%C3%BA+338,+C1063+Cdad.+Aut%C3%B3noma+de+Buenos+Aires/@-34.6118773,-58.6630869,11z/data=!4m18!1m8!3m7!1s0x95bccbce7c872ecb:0xc1513587688ba57e!2sJanos+San+Telmo!8m2!3d-34.6118796!4d-58.3747124!15sCg1qYW5vcyBldmVudG9zIgOIAQGSARZmdW5jdGlvbl9yb29tX2ZhY2lsaXR54AEA!16s%2Fg%2F11lh3vygjj!4m8!1m0!1m5!1m1!1s0x95bccbce7c872ecb:0xc1513587688ba57e!2m2!1d-58.3747124!2d-34.6118796!3e3?entry=ttu&g_ep=EgoyMDI0MTIwNC4wIKXMDSoASAFQAw%3D%3D">CÓMO LLEGAR</a>
+        </div>
+    </div>
+    <div class="galeria1">
+        <img class="f1" src="./img/2.png" alt="FOTO">
+        <img class="f4" src="./img/2.png" alt="FOTO">
+        <img class="f4" src="./img/2.png"  alt="FOTO">
+        <img class="f4" src="./img/2.png"  alt="FOTO">
+    </div>
+<!--
+    <div   class="dresscode">
+        <img class="icon"  src="./figuras/monno.png" alt="fiesta">
+        <h2  >DRESS CODE - ELEGANTE</h2>
+        <p>Colores prohibidos: Azul - celeste - plateado</p>
+    </div>
+-->
+    
+
+    <div class="ubicacion">
+        <br>
+        <div data-aos="fade-up"   class="ubicacion-bloque">
+            <img class="icon" src="./figuras/instagram.png" alt="instagram">
+            <h2>INSTAGRAM</h2>
+            <p>¡No me quiero perder de nada! Compartí las fotos y videos de la fiesta y no olvides etiquetarme.</p>
+            <a class="boton" href="https://www.instagram.com/voyinvitacionesweb/">@voyinvitacionesweb</a>
+        </div>
+        <div data-aos="fade-up"   class="ubicacion-bloque">
+            <img class="icon"  src="./figuras/spotify.png" alt="playlist">
+            <h2>PLAYLIST</h2>
+            <p>¡Quiero que nos divirtamos juntos! <br>
+              Ayudame desde ya a hacer
+              la playlist de mi fiesta con las canciones infaltables,
+              las que queres oír y bailar</p>
+            <a class="boton" href="https://www.youtube.com/playlist?list=PLHx8BXreAZMy_2eg-fMPIhkrCiT9hLVtt&jct=ckbLMQeosd8W8JguFhz9Dg">  PLAYLIST  </a>
+        </div>
+        <br>
+    </div>
+
+    <div class="galeria1">
+        <img class="f1" src="./img/3.png" alt="FOTO">
+        <img class="f4" src="./img/3.png" alt="FOTO">
+        <img class="f4" src="./img/3.png"  alt="FOTO">
+        <img class="f4" src="./img/3.png"  alt="FOTO">
+    </div>
+
+        <div class="caja">
+        <div class="ubicacion-bloque dos" >
+            <img class="icon"  src="./figuras/giftcard.png" alt="giftcard">
+            <h2>MESA DE REGALOS</h2>
+            <p>
+              Mi mejor regalo, en este día tan especial
+              es tu presencia
+              <br>
+              pero si deseas obsequiarme algo... <br>
+              podes ponerlo en un sobre o puedes consultarlo aquí </p>
+            
+           
+            <a class="boton" onclick="copyToClipboard('esto es un ejempplo')" >CBU</a>
+            <a class="boton" onclick="copyToClipboard('esto es un ejemplo')">ALIAS</a> <br><br>
+            <p>Hace clic para copiar los datos de la cuenta. <br> Titular: XXXXX, XXXXXX XXXXXX</p>
+        </div>
+    </div>¯
+
+
+    <div  class="ubicacion-bloque tres" >
+        <img class="icon" src="./figuras/asistencia.png" alt="asistencia">
+        <h2 data-aos="fade-up" >RSVP</h2>
+        <p data-aos="fade-up" >Confirmar asistencia.</p>
+       
+        <div data-aos="fade-up"  class="rsvpbotones">
+            <a class="boton1" target="_blank" href="#">CONFIRMAR</a> 
+            <a  class="boton1" target="_blank"  href="https://calendar.app.google/ExK33GV9w3YzRS5v6">AGENDAR</a>
+        </div>
+    </div>
+    <div class="galeria1">
+        <img class="f1" src="./img/2.png" alt="FOTO">
+        <img class="f4" src="./img/2.png" alt="FOTO">
+        <img class="f4" src="./img/2.png"  alt="FOTO">
+        <img class="f4" src="./img/2.png"  alt="FOTO">
+    </div>
+
+    <div class="end">
+      <div class="end-names">
+        <img src="./figuras/endnames.png" alt="">
+      </div>
+    </div>
+    <footer>
+        <div class="contenido">
+          <div>
+            <img src="./figuras/logo.png" alt="">
+          </div>
+         <div>
+           
+             <p>Hecho con &hearts; <br>
+             &#169 <b>VOY!</b>, invitaciones web.
+             <br> Todos los derechos reservados.</p>
+         </div>
+            
+         <div class="contenido-list">
+             <ul>
+                 <li><a target="_blank" href="https://www.instagram.com/voyinvitacionesweb/"><i class="bi bi-instagram"></i></a></li>
+                 <li><a target="_blank" href="https://www.facebook.com/profile.php?id=100092759319773&sk=grid"><i class="bi bi-facebook"></i></a></li>
+                 <li><a target="_blank" href="mailto:voy.invitacionesweb@gmail.com"><i class="bi bi-envelope"></i></a></li>
+               </ul>
+         </div>
+        </div>
+        
+     </footer>
+     <script>
+
+        function copyToClipboard(text) {
+           const tempInput = document.createElement("input");
+           document.body.appendChild(tempInput);
+           tempInput.value = text;
+           tempInput.select();
+           document.execCommand("copy");
+           document.body.removeChild(tempInput);
+           alert(`Copiaste los datos de cuenta "${text}" a tu portapapeles`);
+         }
+       </script>
+      <script src="reproductor.js"></script>
+      <script src="script.js"></script> 
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+        AOS.init();
+    </script>
+</body>
+</html>
